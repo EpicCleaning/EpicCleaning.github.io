@@ -84,8 +84,16 @@ section { padding: 80px 0; }
   font-weight: 700;
   color: var(--orange);
   letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .nav-logo span { color: var(--text); }
+.nav-logo-img {
+  height: 42px;
+  width: auto;
+  display: block;
+}
 
 .nav-links {
   display: flex;
