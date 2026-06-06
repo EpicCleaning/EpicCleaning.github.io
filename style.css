@@ -84,20 +84,8 @@ section { padding: 80px 0; }
   font-weight: 700;
   color: var(--orange);
   letter-spacing: -0.5px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
 }
 .nav-logo span { color: var(--text); }
-.nav-logo-img {
-  height: 38px;
-  width: 38px;
-  object-fit: contain;
-  display: block;
-  flex-shrink: 0;
-  max-height: 38px;
-  max-width: 38px;
-}
 
 .nav-links {
   display: flex;
@@ -123,15 +111,14 @@ section { padding: 80px 0; }
 }
 
 .nav-links .nav-cta a {
-  background: transparent;
-  color: var(--orange);
+  background: var(--orange);
+  color: var(--white);
   padding: 9px 22px;
   border-radius: var(--radius-btn);
   font-weight: 600;
-  border: 2px solid var(--orange);
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s;
 }
-.nav-links .nav-cta a:hover { background: var(--orange); color: var(--white); }
+.nav-links .nav-cta a:hover { background: var(--orange-light); }
 
 .hamburger {
   display: none;
