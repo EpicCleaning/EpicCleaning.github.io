@@ -75,11 +75,11 @@ section { padding: 80px 0; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 68px;
+  height: 80px;
 }
 
 .nav-logo { display: flex; align-items: center; }
-.nav-logo-img { height: 50px; width: auto; display: block; }
+.nav-logo-img { height: 68px; width: auto; display: block; }
 
 .nav-links {
   display: flex;
@@ -407,7 +407,7 @@ footer {
     flex-direction: column;
     gap: 0;
     position: absolute;
-    top: 68px;
+    top: 80px;
     left: 0; right: 0;
     background: var(--white);
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
